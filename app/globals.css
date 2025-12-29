@@ -1,102 +1,130 @@
 @import "tailwindcss";
 
-:root {
-    --background: #ffffff;
-    --foreground: #000000;
-    --border: #eaeaea;
-    --accent: #000000;
-    --accent-foreground: #ffffff;
-    --muted: #fafafa;
-    --muted-foreground: #666666;
-    --ring: #000000;
-    --radius: 0.5rem;
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #000000;
-        --foreground: #ffffff;
-        --border: #1f1f1f;
-        --accent: #ffffff;
-        --accent-foreground: #000000;
-        --muted: #111111;
-        --muted-foreground: #888888;
-        --ring: #ffffff;
-    }
+/* Light Theme */
+:root {
+  --background: #ffffff;
+  --foreground: #09090b;
+
+  --card: #ffffff;
+  --card-foreground: #09090b;
+
+  --popover: #ffffff;
+  --popover-foreground: #09090b;
+
+  --primary: #18181b;
+  --primary-foreground: #fafafa;
+
+  --secondary: #f4f4f5;
+  --secondary-foreground: #18181b;
+
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+
+  --accent: #f4f4f5;
+  --accent-foreground: #18181b;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #fafafa;
+
+  --border: #e4e4e7;
+  --input: #e4e4e7;
+  --ring: #18181b;
+
+  --radius: 0.75rem;
+}
+
+/* Dark Theme */
+.dark {
+  --background: #09090b;
+  --foreground: #fafafa;
+
+  --card: #09090b;
+  --card-foreground: #fafafa;
+
+  --popover: #09090b;
+  --popover-foreground: #fafafa;
+
+  --primary: #fafafa;
+  --primary-foreground: #18181b;
+
+  --secondary: #18181b;
+  --secondary-foreground: #fafafa;
+
+  --muted: #18181b;
+  --muted-foreground: #a1a1aa;
+
+  --accent: #18181b;
+  --accent-foreground: #fafafa;
+
+  --destructive: #991b1b;
+  --destructive-foreground: #fafafa;
+
+  --border: #18181b;
+  --input: #18181b;
+  --ring: #d4d4d8;
 }
 
 @layer base {
-    * {
-        border-color: var(--border);
-    }
-    body {
-        background-color: var(--background);
-        color: var(--foreground);
-        font-family: Inter, system-ui, -apple-system, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    transition: background-color 0.3s, color 0.3s;
+  }
 }
 
-@layer components {
-    .card {
-        @apply rounded-xl border bg-[var(--background)] p-6 shadow-sm transition-all hover:shadow-md;
-    }
+/* Custom Utilities */
+@layer utilities {
+  .container-responsive {
+    @apply w-full mx-auto px-4 md:px-6 max-w-5xl;
+  }
 
-    .section-title {
-        @apply mb-4 text-sm font-semibold uppercase tracking-wider text-[var(--muted-foreground)];
-    }
+  .section-spacing {
+    @apply mb-8 md:mb-12;
+  }
+}
 
-    .label {
-        @apply mb-1.5 block text-sm font-medium text-[var(--foreground)];
-    }
-
-    .input {
-        @apply flex h-10 w-full rounded-md border border-[var(--border)] bg-[var(--background)] px-3 py-2 text-sm ring-offset-[var(--background)] placeholder:text-[var(--muted-foreground)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
-    }
-
-    .btn {
-        @apply inline-flex items-center justify-center rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-medium text-[var(--accent-foreground)] ring-offset-[var(--background)] transition-colors hover:bg-[var(--accent)]/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
-    }
-
-    .btn-outline {
-        @apply inline-flex items-center justify-center rounded-md border border-[var(--border)] bg-transparent px-4 py-2 text-sm font-medium ring-offset-[var(--background)] transition-colors hover:bg-[var(--muted)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
-    }
-
-    .subtle {
-        @apply text-sm text-[var(--muted-foreground)];
-    }
-
-    .two-col {
-        @apply grid grid-cols-1 gap-4 sm:grid-cols-2;
-    }
-
-    /* Radix Select Styles */
-    .select-trigger {
-        @apply flex h-10 w-full items-center justify-between rounded-md border border-[var(--border)] bg-[var(--background)] px-3 py-2 text-sm ring-offset-[var(--background)] placeholder:text-[var(--muted-foreground)] focus:outline-none focus:ring-2 focus:ring-[var(--ring)] focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
-    }
-
-    .select-content {
-        @apply relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-[var(--background)] text-[var(--foreground)] shadow-md;
-    }
-
-    .select-item {
-        @apply relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-[var(--muted)] focus:text-[var(--foreground)] data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
-    }
-
-    .select-label {
-        @apply py-1.5 pl-8 pr-2 text-sm font-semibold;
-    }
-
-    .app-container {
-        @apply mx-auto max-w-[880px] px-5 py-12;
-    }
-
-    .site-header {
-        @apply mb-8 flex items-center justify-between gap-4 border-b pb-4;
-    }
-
-    .brand {
-        @apply text-lg font-extrabold tracking-tight;
-    }
+/* Smooth transitions for theme change */
+*,
+*::before,
+*::after {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.15s ease;
 }

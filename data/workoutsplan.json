@@ -1,0 +1,1323 @@
+{
+    "title": "Strength, Muscle & Fat Loss Program (PPL)",
+    "metadata": {
+        "athlete": "Yonatan",
+        "training_split": "Push / Pull / Legs (6 days)",
+        "goal": [
+            "Maximal strength",
+            "Muscle hypertrophy",
+            "Fat loss",
+            "Neck thickness"
+        ],
+        "constraints": [
+            "OMAD",
+            "Low protein availability",
+            "Fasted morning training"
+        ]
+    },
+    "plans": [
+        {
+            "plan_name": "Main Program",
+            "phase": "Full Training",
+            "description": "Primary high-intensity strength and hypertrophy phase.",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Push (Heavy + Triceps + Neck)",
+                    "estimated_time_minutes": 100,
+                    "exercises": [
+                        {
+                            "name": "Barbell Bench Press",
+                            "sets": 4,
+                            "reps": "4–6",
+                            "loads_kg": [
+                                75,
+                                85,
+                                90,
+                                82.5
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Incline Machine Press",
+                            "sets": 3,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                70,
+                                75,
+                                80
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated DB Shoulder Press",
+                            "sets": 3,
+                            "reps": "5–8",
+                            "loads_kg": [
+                                22,
+                                24,
+                                25
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "DB Lateral Raise",
+                            "sets": 4,
+                            "reps": "12–15",
+                            "loads_kg": "8–10",
+                            "tempo": "2-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Close-Grip Bench Press",
+                            "sets": 3,
+                            "reps": "5–8",
+                            "loads_kg": [
+                                65,
+                                70,
+                                75
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Cable Pushdown (Bar)",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "26–30",
+                            "tempo": "2-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Overhead DB Extension",
+                            "sets": 2,
+                            "reps": "12–15",
+                            "loads_kg": "20–22",
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Neck Flexion",
+                            "sets": 4,
+                            "reps": "15–20",
+                            "loads_kg": "10 → 5 back-off",
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        },
+                        {
+                            "name": "Neck Extension",
+                            "sets": 4,
+                            "reps": "15–20",
+                            "loads_kg": "10 → 5 back-off",
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 2,
+                    "title": "Pull (Heavy + Biceps + Forearms)",
+                    "estimated_time_minutes": 100,
+                    "exercises": [
+                        {
+                            "name": "Deadlift",
+                            "sets": 3,
+                            "reps": "3–5",
+                            "loads_kg": [
+                                130,
+                                140,
+                                145
+                            ],
+                            "tempo": "2-0-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Chest-Supported Row",
+                            "sets": 3,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                70,
+                                75,
+                                80
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Lat Pulldown",
+                            "sets": 3,
+                            "reps": "8–10",
+                            "loads_kg": "65–70",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Barbell Curl",
+                            "sets": 4,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                37.5,
+                                40,
+                                42.5
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Incline DB Curl",
+                            "sets": 3,
+                            "reps": "8–10",
+                            "loads_kg": "14–16",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Reverse Barbell Curl",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "25–30",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Heavy Static Hold",
+                            "sets": 3,
+                            "reps": "20–30 s",
+                            "loads_kg": "120–130",
+                            "tempo": "—",
+                            "rest": "2–3 min",
+                            "type": "grip"
+                        }
+                    ]
+                },
+                {
+                    "day": 3,
+                    "title": "Legs (Heavy + Glutes + Neck)",
+                    "estimated_time_minutes": 95,
+                    "exercises": [
+                        {
+                            "name": "Free Squat",
+                            "sets": 4,
+                            "reps": "3–5",
+                            "loads_kg": [
+                                80,
+                                90,
+                                95
+                            ],
+                            "tempo": "3-1-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Romanian Deadlift",
+                            "sets": 3,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                105,
+                                110,
+                                115
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Leg Press",
+                            "sets": 4,
+                            "reps": "5–8",
+                            "loads_kg": [
+                                260,
+                                290,
+                                315
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Hip Thrust",
+                            "sets": 3,
+                            "reps": "8–10",
+                            "loads_kg": "120–130",
+                            "tempo": "2-0-1-1",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Standing Calf Raise",
+                            "sets": 4,
+                            "reps": "10–12",
+                            "loads_kg": "90–105",
+                            "tempo": "3-1-1-0",
+                            "rest": "90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Lateral Neck Flexion",
+                            "sets": 3,
+                            "reps": "12/side",
+                            "loads_kg": 5,
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 4,
+                    "title": "Push (Volume + Shoulders + Triceps)",
+                    "estimated_time_minutes": 85,
+                    "exercises": [
+                        {
+                            "name": "Incline DB Press",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "22–24",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Machine Chest Press",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "60–65",
+                            "tempo": "2-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated Shoulder Press",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "20–22",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "DB Lateral Raise",
+                            "sets": 4,
+                            "reps": "15",
+                            "loads_kg": "6–8",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Pushdown",
+                            "sets": 4,
+                            "reps": "12–15",
+                            "loads_kg": "22–26",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Skullcrushers",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "27.5–30",
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        }
+                    ]
+                },
+                {
+                    "day": 5,
+                    "title": "Pull (Volume + Arms + Forearms + Neck)",
+                    "estimated_time_minutes": 90,
+                    "exercises": [
+                        {
+                            "name": "Lat Pulldown",
+                            "sets": 4,
+                            "reps": "10–12",
+                            "loads_kg": "55–60",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated Cable Row",
+                            "sets": 3,
+                            "reps": "12",
+                            "loads_kg": "55–65",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Rear Delt Fly",
+                            "sets": 4,
+                            "reps": "15",
+                            "loads_kg": "6–8",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "EZ-Bar Curl",
+                            "sets": 4,
+                            "reps": "10–12",
+                            "loads_kg": "27.5–32.5",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Hammer Curl",
+                            "sets": 3,
+                            "reps": "12",
+                            "loads_kg": "16–18",
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Neck Flex + Extension",
+                            "sets": 3,
+                            "reps": "20",
+                            "loads_kg": "5–10",
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 6,
+                    "title": "Legs (Volume + Glutes + Calves)",
+                    "estimated_time_minutes": 90,
+                    "exercises": [
+                        {
+                            "name": "Pendulum Squat",
+                            "sets": 4,
+                            "reps": "10–12",
+                            "loads_kg": "70–90",
+                            "tempo": "3-1-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Leg Press",
+                            "sets": 3,
+                            "reps": "12–15",
+                            "loads_kg": "220–240",
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Bulgarian Split Squat",
+                            "sets": 3,
+                            "reps": "8/leg",
+                            "loads_kg": "14–18",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Hip Thrust",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "110–130",
+                            "tempo": "2-0-1-1",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Calf Raise",
+                            "sets": 4,
+                            "reps": "15–20",
+                            "loads_kg": "70–85",
+                            "tempo": "3-1-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "plan_name": "Deload Week",
+            "phase": "Recovery",
+            "description": "Type A deload to restore CNS and joint health.",
+            "rules": {
+                "volume_reduction_percent": 45,
+                "load_reduction_percent": 15,
+                "rir": "3–4",
+                "neck_volume": "50%"
+            },
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Push (Heavy → Deload)",
+                    "estimated_time_minutes": 70,
+                    "exercises": [
+                        {
+                            "name": "Barbell Bench Press",
+                            "sets": 2,
+                            "reps": 5,
+                            "loads_kg": 77.5,
+                            "tempo": "3-0-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Incline Machine Press",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": 65,
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated DB Shoulder Press",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": 20,
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "DB Lateral Raise",
+                            "sets": 2,
+                            "reps": "12–15",
+                            "loads_kg": "6–8",
+                            "tempo": "2-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Close-Grip Bench Press",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": 60,
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Cable Pushdown",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "22–24",
+                            "tempo": "2-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Overhead DB Extension",
+                            "sets": "1–2",
+                            "reps": 15,
+                            "loads_kg": "17.5–20",
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Neck Flexion",
+                            "sets": 2,
+                            "reps": 20,
+                            "loads_kg": 5,
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        },
+                        {
+                            "name": "Neck Extension",
+                            "sets": 2,
+                            "reps": 20,
+                            "loads_kg": 5,
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 2,
+                    "title": "Pull (Heavy → Deload)",
+                    "estimated_time_minutes": 70,
+                    "exercises": [
+                        {
+                            "name": "Deadlift",
+                            "sets": 2,
+                            "reps": 4,
+                            "loads_kg": 120,
+                            "tempo": "2-0-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Chest-Supported Row",
+                            "sets": 2,
+                            "reps": 8,
+                            "loads_kg": 65,
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Lat Pulldown",
+                            "sets": 2,
+                            "reps": 10,
+                            "loads_kg": "55–60",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Barbell Curl",
+                            "sets": 2,
+                            "reps": 8,
+                            "loads_kg": "32.5–35",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Incline DB Curl",
+                            "sets": 2,
+                            "reps": 10,
+                            "loads_kg": "12–14",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Reverse Barbell Curl",
+                            "sets": "1–2",
+                            "reps": 12,
+                            "loads_kg": "22.5–25",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Static Hold",
+                            "sets": 2,
+                            "reps": "20 s",
+                            "loads_kg": "100–110",
+                            "tempo": "—",
+                            "rest": "2–3 min",
+                            "type": "grip"
+                        }
+                    ]
+                },
+                {
+                    "day": 3,
+                    "title": "Legs (Heavy → Deload)",
+                    "estimated_time_minutes": 70,
+                    "exercises": [
+                        {
+                            "name": "Free Squat",
+                            "sets": 2,
+                            "reps": 5,
+                            "loads_kg": "75–80",
+                            "tempo": "3-1-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Romanian Deadlift",
+                            "sets": 2,
+                            "reps": 8,
+                            "loads_kg": "95–100",
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Leg Press",
+                            "sets": 2,
+                            "reps": 8,
+                            "loads_kg": "240–260",
+                            "tempo": "3-0-1-0",
+                            "rest": "3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Hip Thrust",
+                            "sets": 2,
+                            "reps": 10,
+                            "loads_kg": "100–110",
+                            "tempo": "2-0-1-1",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Standing Calf Raise",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "75–85",
+                            "tempo": "3-1-1-0",
+                            "rest": "90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Lateral Neck Flexion",
+                            "sets": 2,
+                            "reps": "12/side",
+                            "loads_kg": 5,
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 4,
+                    "title": "Push (Volume → Deload)",
+                    "estimated_time_minutes": 60,
+                    "exercises": [
+                        {
+                            "name": "Incline DB Press",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "20–22",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Machine Chest Press",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "55–60",
+                            "tempo": "2-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated Shoulder Press",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "18–20",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "DB Lateral Raise",
+                            "sets": 2,
+                            "reps": 15,
+                            "loads_kg": 6,
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Pushdown",
+                            "sets": 2,
+                            "reps": 15,
+                            "loads_kg": "20–22",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Skullcrusher",
+                            "sets": "1–2",
+                            "reps": 12,
+                            "loads_kg": 25,
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        }
+                    ]
+                },
+                {
+                    "day": 5,
+                    "title": "Pull (Volume → Deload)",
+                    "estimated_time_minutes": 65,
+                    "exercises": [
+                        {
+                            "name": "Lat Pulldown",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "50–55",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated Cable Row",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "50–55",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Rear Delt Fly",
+                            "sets": 2,
+                            "reps": 15,
+                            "loads_kg": 6,
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "EZ-Bar Curl",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "25–27.5",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Hammer Curl",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "14–16",
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Wrist Curl",
+                            "sets": 2,
+                            "reps": 15,
+                            "loads_kg": "10–12.5",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Neck Flex + Extension",
+                            "sets": 2,
+                            "reps": 20,
+                            "loads_kg": 5,
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 6,
+                    "title": "Legs (Volume → Deload)",
+                    "estimated_time_minutes": 65,
+                    "exercises": [
+                        {
+                            "name": "Pendulum Squat",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "60–70",
+                            "tempo": "3-1-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Leg Press",
+                            "sets": 2,
+                            "reps": 15,
+                            "loads_kg": "200–220",
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Bulgarian Split Squat",
+                            "sets": 2,
+                            "reps": "8/leg",
+                            "loads_kg": "12–14",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Hip Thrust",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "95–105",
+                            "tempo": "2-0-1-1",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Calf Raise",
+                            "sets": 2,
+                            "reps": 20,
+                            "loads_kg": "65–75",
+                            "tempo": "3-1-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "plan_name": "Week 1 Back",
+            "phase": "Ramp Back",
+            "description": "Reintroduction to full loads with reduced volume.",
+            "rules": {
+                "volume_reduction_percent": 20,
+                "neck_volume": "75%",
+                "pr_attempts": false
+            },
+            "days": [
+                {
+                    "day": 1,
+                    "title": "Push (Heavy + Triceps + Neck)",
+                    "estimated_time_minutes": 90,
+                    "exercises": [
+                        {
+                            "name": "Barbell Bench Press",
+                            "sets": 3,
+                            "reps": "4–6",
+                            "loads_kg": [
+                                75,
+                                85,
+                                90
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Incline Machine Press",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                70,
+                                75
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated DB Shoulder Press",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                22,
+                                24
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "DB Lateral Raise",
+                            "sets": 3,
+                            "reps": "12–15",
+                            "loads_kg": "8–10",
+                            "tempo": "2-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Close-Grip Bench Press",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                65,
+                                70
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Cable Pushdown (Bar)",
+                            "sets": 2,
+                            "reps": "10–12",
+                            "loads_kg": "26–28",
+                            "tempo": "2-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Overhead DB Extension",
+                            "sets": 2,
+                            "reps": "12–15",
+                            "loads_kg": 20,
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Neck Flexion",
+                            "sets": 3,
+                            "reps": 20,
+                            "loads_kg": "5–10",
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        },
+                        {
+                            "name": "Neck Extension",
+                            "sets": 3,
+                            "reps": 20,
+                            "loads_kg": "5–10",
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 2,
+                    "title": "Pull (Heavy + Biceps + Forearms)",
+                    "estimated_time_minutes": 90,
+                    "exercises": [
+                        {
+                            "name": "Deadlift",
+                            "sets": 2,
+                            "reps": "3–5",
+                            "loads_kg": [
+                                130,
+                                140
+                            ],
+                            "tempo": "2-0-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Chest-Supported Row",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                70,
+                                75
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Lat Pulldown",
+                            "sets": 2,
+                            "reps": "8–10",
+                            "loads_kg": 65,
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Barbell Curl",
+                            "sets": 3,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                37.5,
+                                40
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Incline DB Curl",
+                            "sets": 2,
+                            "reps": "8–10",
+                            "loads_kg": "14–16",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Reverse Barbell Curl",
+                            "sets": 2,
+                            "reps": "10–12",
+                            "loads_kg": 25,
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Static Hold",
+                            "sets": 2,
+                            "reps": "20–30 s",
+                            "loads_kg": 120,
+                            "tempo": "—",
+                            "rest": "2–3 min",
+                            "type": "grip"
+                        }
+                    ]
+                },
+                {
+                    "day": 3,
+                    "title": "Legs (Heavy + Glutes + Neck)",
+                    "estimated_time_minutes": 90,
+                    "exercises": [
+                        {
+                            "name": "Free Squat",
+                            "sets": 3,
+                            "reps": "3–5",
+                            "loads_kg": [
+                                80,
+                                90,
+                                95
+                            ],
+                            "tempo": "3-1-1-0",
+                            "rest": "3–4 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Romanian Deadlift",
+                            "sets": 2,
+                            "reps": "6–8",
+                            "loads_kg": [
+                                105,
+                                110
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Leg Press",
+                            "sets": 3,
+                            "reps": "5–8",
+                            "loads_kg": [
+                                260,
+                                290,
+                                315
+                            ],
+                            "tempo": "3-0-1-0",
+                            "rest": "3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Hip Thrust",
+                            "sets": 2,
+                            "reps": "8–10",
+                            "loads_kg": 120,
+                            "tempo": "2-0-1-1",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Standing Calf Raise",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "90–100",
+                            "tempo": "3-1-1-0",
+                            "rest": "90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Lateral Neck Flexion",
+                            "sets": 2,
+                            "reps": "12/side",
+                            "loads_kg": 5,
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 4,
+                    "title": "Push (Volume + Shoulders + Triceps)",
+                    "estimated_time_minutes": 80,
+                    "exercises": [
+                        {
+                            "name": "Incline DB Press",
+                            "sets": 2,
+                            "reps": "10–12",
+                            "loads_kg": "22–24",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Machine Chest Press",
+                            "sets": 2,
+                            "reps": "10–12",
+                            "loads_kg": "60–65",
+                            "tempo": "2-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated Shoulder Press",
+                            "sets": 2,
+                            "reps": "10–12",
+                            "loads_kg": "20–22",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "DB Lateral Raise",
+                            "sets": 3,
+                            "reps": 15,
+                            "loads_kg": "6–8",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Pushdown",
+                            "sets": 3,
+                            "reps": "12–15",
+                            "loads_kg": "22–26",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Skullcrushers",
+                            "sets": 2,
+                            "reps": "10–12",
+                            "loads_kg": 27.5,
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        }
+                    ]
+                },
+                {
+                    "day": 5,
+                    "title": "Pull (Volume + Arms + Forearms + Neck)",
+                    "estimated_time_minutes": 80,
+                    "exercises": [
+                        {
+                            "name": "Lat Pulldown",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "55–60",
+                            "tempo": "3-0-1-0",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Seated Cable Row",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "55–60",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Rear Delt Fly",
+                            "sets": 3,
+                            "reps": 15,
+                            "loads_kg": "6–8",
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "EZ-Bar Curl",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "27.5–30",
+                            "tempo": "3-0-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Hammer Curl",
+                            "sets": 2,
+                            "reps": 12,
+                            "loads_kg": "16–18",
+                            "tempo": "3-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Wrist Curl",
+                            "sets": 2,
+                            "reps": 15,
+                            "loads_kg": 12.5,
+                            "tempo": "2-0-1-0",
+                            "rest": "60 s",
+                            "type": "isolation"
+                        },
+                        {
+                            "name": "Neck Flex + Extension",
+                            "sets": 2,
+                            "reps": 20,
+                            "loads_kg": 5,
+                            "tempo": "2-0-2-0",
+                            "rest": "—",
+                            "type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "day": 6,
+                    "title": "Legs (Volume + Glutes + Calves)",
+                    "estimated_time_minutes": 80,
+                    "exercises": [
+                        {
+                            "name": "Pendulum Squat",
+                            "sets": 3,
+                            "reps": "10–12",
+                            "loads_kg": "70–85",
+                            "tempo": "3-1-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Leg Press",
+                            "sets": 2,
+                            "reps": "12–15",
+                            "loads_kg": "220–240",
+                            "tempo": "3-0-1-0",
+                            "rest": "2–3 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Bulgarian Split Squat",
+                            "sets": 2,
+                            "reps": "8/leg",
+                            "loads_kg": "14–18",
+                            "tempo": "3-0-1-0",
+                            "rest": "90 s",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Hip Thrust",
+                            "sets": 2,
+                            "reps": "10–12",
+                            "loads_kg": "110–120",
+                            "tempo": "2-0-1-1",
+                            "rest": "2 min",
+                            "type": "compound"
+                        },
+                        {
+                            "name": "Calf Raise",
+                            "sets": 3,
+                            "reps": "15–20",
+                            "loads_kg": "70–85",
+                            "tempo": "3-1-1-0",
+                            "rest": "60–90 s",
+                            "type": "isolation"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

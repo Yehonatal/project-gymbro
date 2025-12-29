@@ -1,0 +1,178 @@
+{
+    "title": "Weekly Training & Body Composition Log",
+    "version": "1.0",
+    "athlete": {
+        "name": "Yonatan",
+        "age": 26,
+        "height_cm": 175,
+        "diet_style": "OMAD",
+        "protein_constraint": "Low",
+        "training_state": "Fasted morning training"
+    },
+    "weekly_entries": [
+        {
+            "week_number": 1,
+            "date_range": "2024-11-14 to 2024-11-20",
+            "phase": "Baseline",
+            "program_phase": "Main Program",
+            "notes": "Initial baseline measurements before consistent progression.",
+            "body_metrics": {
+                "bodyweight_kg": 94.0,
+                "estimated_bodyfat_percent": 27.0,
+                "fat_mass_kg": 25.4,
+                "lean_mass_kg": 68.6,
+                "visceral_fat_rating": "High",
+                "measurement_conditions": {
+                    "time_of_day": "Afternoon",
+                    "hydration_state": "Normal",
+                    "fed_state": "Fed"
+                }
+            },
+            "strength_metrics": {
+                "bench_press": {
+                    "top_set": "85 x 5",
+                    "estimated_1rm_kg": 100
+                },
+                "squat": {
+                    "top_set": "90 x 3",
+                    "estimated_1rm_kg": 102
+                },
+                "deadlift": {
+                    "top_set": "140 x 2",
+                    "estimated_1rm_kg": 150
+                },
+                "leg_press": {
+                    "top_set": "260 x 6",
+                    "estimated_1rm_kg": 310
+                }
+            }
+        },
+        {
+            "week_number": 3,
+            "date_range": "2024-12-01 to 2024-12-07",
+            "phase": "Mid-Block",
+            "program_phase": "Main Program",
+            "notes": "Strength increasing rapidly, visual changes still limited.",
+            "body_metrics": {
+                "bodyweight_kg": 93.5,
+                "estimated_bodyfat_percent": 26.5,
+                "fat_mass_kg": 24.8,
+                "lean_mass_kg": 68.7,
+                "visceral_fat_rating": "Moderate",
+                "measurement_conditions": {
+                    "time_of_day": "Noon",
+                    "hydration_state": "High",
+                    "fed_state": "Fed"
+                }
+            },
+            "strength_metrics": {
+                "bench_press": {
+                    "top_set": "90 x 5",
+                    "estimated_1rm_kg": 105
+                },
+                "squat": {
+                    "top_set": "95 x 3",
+                    "estimated_1rm_kg": 108
+                },
+                "deadlift": {
+                    "top_set": "145 x 2",
+                    "estimated_1rm_kg": 155
+                },
+                "leg_press": {
+                    "top_set": "290 x 6",
+                    "estimated_1rm_kg": 340
+                }
+            }
+        },
+        {
+            "week_number": 5,
+            "date_range": "2024-12-18 to 2024-12-24",
+            "phase": "Pre-Deload",
+            "program_phase": "Main Program",
+            "notes": "Strength high, fatigue accumulating.",
+            "body_metrics": {
+                "bodyweight_kg": 93.0,
+                "estimated_bodyfat_percent": 26.0,
+                "fat_mass_kg": 24.2,
+                "lean_mass_kg": 68.8,
+                "visceral_fat_rating": "Improving",
+                "measurement_conditions": {
+                    "time_of_day": "Morning",
+                    "hydration_state": "Normal",
+                    "fed_state": "Fasted"
+                }
+            },
+            "strength_metrics": {
+                "bench_press": {
+                    "top_set": "90 x 5",
+                    "estimated_1rm_kg": 105
+                },
+                "squat": {
+                    "top_set": "100 x 3",
+                    "estimated_1rm_kg": 112
+                },
+                "deadlift": {
+                    "top_set": "150 x 2",
+                    "estimated_1rm_kg": 160
+                },
+                "leg_press": {
+                    "top_set": "315 x 5",
+                    "estimated_1rm_kg": 365
+                }
+            }
+        },
+        {
+            "week_number": 7,
+            "date_range": "2025-01-08 to 2025-01-14",
+            "phase": "Post-Cut Progress",
+            "program_phase": "Main Program",
+            "notes": "Significant bodyweight drop with strength largely maintained.",
+            "body_metrics": {
+                "bodyweight_kg": 89.0,
+                "estimated_bodyfat_percent": 23.0,
+                "fat_mass_kg": 20.5,
+                "lean_mass_kg": 68.5,
+                "visceral_fat_rating": "Lower",
+                "measurement_conditions": {
+                    "time_of_day": "Morning",
+                    "hydration_state": "Normal",
+                    "fed_state": "Fasted"
+                }
+            },
+            "strength_metrics": {
+                "bench_press": {
+                    "top_set": "87.5 x 5",
+                    "estimated_1rm_kg": 102,
+                    "notes": "Minor drop expected under prolonged deficit"
+                },
+                "squat": {
+                    "top_set": "95 x 3",
+                    "estimated_1rm_kg": 108,
+                    "notes": "Load reduced to preserve joints"
+                },
+                "deadlift": {
+                    "top_set": "145 x 2",
+                    "estimated_1rm_kg": 155,
+                    "notes": "Maintained relative strength"
+                },
+                "leg_press": {
+                    "top_set": "300 x 5",
+                    "estimated_1rm_kg": 350,
+                    "notes": "Still dominant lower-body lift"
+                }
+            },
+            "weekly_training_summary": {
+                "sessions_planned": 6,
+                "sessions_completed": 6,
+                "average_session_duration_minutes": 85,
+                "training_quality_rating_1_to_10": 7
+            },
+            "nutrition_metrics": {
+                "average_calories_estimate": 1700,
+                "estimated_protein_g_per_day": 55,
+                "water_intake_liters": 2.5,
+                "notes": "Aggressive deficit reflected in scale weight"
+            }
+        }
+    ]
+}
